@@ -1,0 +1,16 @@
+.socials-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: max-content;
+
+  svg {
+    transition: fill var(--_toggle-animation-time);
+  }
+
+  &.blue {
+    svg {
+      fill: var(--_hero-container-bg);
+    }
+  }
+}
